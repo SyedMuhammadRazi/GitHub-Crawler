@@ -59,7 +59,7 @@ jobs:
           python src/crawler/to_csv.py
 
       - name: Upload repositories CSV as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: repositories-data
           path: repositories.csv
